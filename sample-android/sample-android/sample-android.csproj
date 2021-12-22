@@ -37,6 +37,10 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+<AndroidHttpClientHandlerType>AndroidClientHandler</AndroidHttpClientHandlerType>
+<AndroidTlsProvider>Default (Native TLS 1.2+)</AndroidTlsProvider>
+<AndroidLinkTool></AndroidLinkTool>
+<LangVersion>10.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -50,6 +54,7 @@
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+<LangVersion>10.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
